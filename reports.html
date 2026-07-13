@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>鑑定書テンプレート｜月の宿で自分を知る やさしい27宿・宿曜占星術講座</title>
+<meta name="description" content="旧暦二十七宿・月宿傍通暦式の入力式・印刷対応鑑定書テンプレート集">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reports.css">
+</head>
+<body class="reports-page">
+<header class="site-header">
+  <div class="bar">
+    <div class="logo">やさしい27宿講座<small>月の宿で自分を知る</small></div>
+    <button class="nav-toggle" aria-label="メニュー">☰ 目次</button>
+    <nav class="site-nav">
+      <a href="step1.html">1.自分の星</a>
+      <a href="step2.html">2.27宿</a>
+      <a href="step3.html">3.身近な人</a>
+      <a href="step4.html">4.性格変換</a>
+      <a href="step5.html">5.相性</a>
+      <a href="step6.html">6.日運</a>
+      <a href="step7.html">7.鑑定文</a>
+      <a href="appendix.html">早見表</a>
+      <a href="reports.html">巻末特典</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="step" id="report-templates">
+  <div class="container">
+    <div class="step-head">
+      <span class="step-no">巻末特典</span>
+      <h2>入力式・印刷対応 鑑定書テンプレート集</h2>
+      <p class="lead">よくある5つの相談事例から選び、必要事項を入力するだけで、署名入りの宿曜鑑定書を作れます。完成後はA4印刷またはPDF保存ができます。</p>
+    </div>
+
+    <div class="design-brief lecture">
+      <h3>鑑定書デザイン指示書</h3>
+      <div class="design-spec-grid">
+        <div><b>コンセプト</b><span>月明かり、静けさ、信頼感。神秘的すぎず、相談者へ正式に渡せる清潔な鑑定書。</span></div>
+        <div><b>基調色</b><span>月夜の濃紺紫、月光の淡い金、生成り白。強い原色や過度なグラデーションは使わない。</span></div>
+        <div><b>書体</b><span>本文は読みやすい明朝・ゴシック系。見出しだけに品のある明朝体を使い、装飾文字は避ける。</span></div>
+        <div><b>余白</b><span>A4の四辺に十分な余白を確保。1段落を短くし、見出しごとに呼吸できる間隔を取る。</span></div>
+        <div><b>装飾</b><span>細い罫線、月の円、27の点を控えめに使用。星やスピリチュアル記号を大量に並べない。</span></div>
+        <div><b>印刷仕様</b><span>A4縦、背景色なしでも情報階層が崩れない設計。署名欄と発行日を最終ページ下部へ配置。</span></div>
+      </div>
+    </div>
+
+    <div class="template-picker tool-box">
+      <h4>作成する鑑定書を選ぶ</h4>
+      <div class="template-choice-grid" role="group" aria-label="鑑定書の種類">
+        <button class="template-choice active" type="button" data-template="general"><b>01 総合鑑定</b><span>本質・才能・課題・今後</span></button>
+        <button class="template-choice" type="button" data-template="love"><b>02 恋愛鑑定</b><span>恋愛傾向・距離感・育て方</span></button>
+        <button class="template-choice" type="button" data-template="work"><b>03 仕事・適職鑑定</b><span>強み・働き方・つまずき</span></button>
+        <button class="template-choice" type="button" data-template="relationship"><b>04 人間関係鑑定</b><span>家族・友人・職場の関係</span></button>
+        <button class="template-choice" type="button" data-template="compatibility"><b>05 相性鑑定</b><span>2人の宿・相性・関係改善</span></button>
+      </div>
+    </div>
+
+    <div class="report-workspace">
+      <section class="report-form tool-box no-print" aria-labelledby="report-form-title">
+        <h4 id="report-form-title">鑑定情報を入力する</h4>
+        <p class="small-note">生年月日を入力すると、本命宿・旧暦月日・基本鑑定が自動入力されます。文章は自由に修正できます。印刷画面で「PDFに保存」を選ぶとPDF鑑定書として保存できます。</p>
+
+        <div class="form-row">
+          <div class="field"><label for="report-client">相談者名</label><input id="report-client" type="text" data-report-field="client" placeholder="例：山田 花子"></div>
+          <div class="field"><label for="report-birth">生年月日</label><input id="report-birth" type="date"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="report-lunar">旧暦月日</label><input id="report-lunar" type="text" data-report-field="lunar" placeholder="生年月日から自動入力"></div>
+          <div class="field"><label for="report-shuku">本命宿</label><input id="report-shuku" type="text" data-report-field="shuku" placeholder="生年月日から自動入力"></div>
+        </div>
+        <div class="form-row compatibility-fields" hidden>
+          <div class="field"><label for="report-partner">お相手の名前</label><input id="report-partner" type="text" data-report-field="partner" placeholder="例：山田 太郎"></div>
+          <div class="field"><label for="report-partner-birth">お相手の生年月日</label><input id="report-partner-birth" type="date"></div>
+        </div>
+        <div class="form-row compatibility-fields" hidden>
+          <div class="field"><label for="report-partner-shuku">お相手の本命宿</label><input id="report-partner-shuku" type="text" data-report-field="partnerShuku" placeholder="生年月日から自動入力"></div>
+          <div class="field"><label for="report-compatibility">相性分類</label><input id="report-compatibility" type="text" data-report-field="compatibility" placeholder="2人の生年月日から自動入力"></div>
+        </div>
+
+        <div class="field full"><label for="report-request">ご相談内容</label><textarea id="report-request" rows="3" data-report-field="request" placeholder="現在の状況と知りたいこと"></textarea></div>
+        <div class="field full"><label for="report-essence">本質と内面</label><textarea id="report-essence" rows="4" data-report-field="essence"></textarea></div>
+        <div class="field full"><label for="report-strength">強みと才能</label><textarea id="report-strength" rows="4" data-report-field="strength"></textarea></div>
+        <div class="field full"><label for="report-challenge">短所・注意点</label><textarea id="report-challenge" rows="4" data-report-field="challenge"></textarea></div>
+        <div class="field full"><label for="report-focus" id="report-focus-label">今回のテーマ鑑定</label><textarea id="report-focus" rows="5" data-report-field="focus"></textarea></div>
+        <div class="field full"><label for="report-action">具体的な行動アドバイス</label><textarea id="report-action" rows="4" data-report-field="action"></textarea></div>
+        <div class="field full"><label for="report-closing">鑑定のまとめ</label><textarea id="report-closing" rows="4" data-report-field="closing"></textarea></div>
+
+        <div class="form-row">
+          <div class="field"><label for="report-date">鑑定日</label><input id="report-date" type="date" data-report-field="date"></div>
+          <div class="field"><label for="report-reader">鑑定者名</label><input id="report-reader" type="text" data-report-field="reader" placeholder="例：宿曜鑑定士 月乃"></div>
+        </div>
+        <div class="field full"><label for="report-signature">鑑定者署名</label><input id="report-signature" type="text" data-report-field="signature" placeholder="印刷される署名名を入力"></div>
+
+        <div class="report-actions">
+          <button class="btn" id="report-fill" type="button">宿の情報から鑑定文を再作成</button>
+          <button class="btn ghost" id="report-print" type="button">印刷／PDF保存</button>
+          <button class="btn ghost" id="report-clear" type="button">入力を初期化する</button>
+        </div>
+      </section>
+
+      <section class="report-preview" aria-label="印刷プレビュー">
+        <p class="preview-label no-print">印刷プレビュー</p>
+        <article class="report-sheet" id="report-sheet">
+          <div class="report-orbit" aria-hidden="true"><span></span></div>
+          <header class="report-cover">
+            <p class="report-kicker">旧暦二十七宿・月宿傍通暦式</p>
+            <h1 data-output="title">月の宿 総合鑑定書</h1>
+            <p class="report-subtitle">LUNAR MANSION READING</p>
+            <div class="report-client-line"><span>ご相談者</span><b data-output="client">お名前未入力</b><small>様</small></div>
+          </header>
+
+          <div class="report-meta">
+            <div><span>生年月日</span><b id="report-birth-output">未入力</b></div>
+            <div><span>旧暦月日</span><b data-output="lunar">未入力</b></div>
+            <div><span>本命宿</span><b data-output="shuku">未入力</b></div>
+            <div class="compatibility-output" hidden><span>お相手</span><b><span data-output="partner">未入力</span>・<span data-output="partnerShuku">未入力</span></b></div>
+          </div>
+
+          <section class="report-section"><h2>ご相談内容</h2><p data-output="request">ご相談内容を入力してください。</p></section>
+          <section class="report-section"><h2>本質と内面</h2><p data-output="essence">生年月日を入力すると鑑定文が表示されます。</p></section>
+          <section class="report-section"><h2>強みと才能</h2><p data-output="strength">生年月日を入力すると鑑定文が表示されます。</p></section>
+          <section class="report-section"><h2>短所・注意点</h2><p data-output="challenge">生年月日を入力すると鑑定文が表示されます。</p></section>
+          <section class="report-section report-focus-section"><h2 data-output="focusTitle">総合的に見る今のテーマ</h2><p data-output="focus">生年月日を入力すると今回のテーマに合わせた鑑定文が表示されます。</p></section>
+          <section class="report-section compatibility-output" hidden><h2>二人の関係性</h2><p><b data-output="compatibility">相性を算出します</b></p></section>
+          <section class="report-section"><h2>具体的な行動アドバイス</h2><p data-output="action">今日からできる行動を入力してください。</p></section>
+          <section class="report-section report-closing"><h2>鑑定のまとめ</h2><p data-output="closing">鑑定のまとめを入力してください。</p></section>
+
+          <footer class="report-signature-block">
+            <div><span>鑑定日</span><b data-output="date">未入力</b></div>
+            <div class="reader-name"><span>鑑定者</span><b data-output="reader">未入力</b></div>
+            <div class="signature-line"><span>鑑定者署名</span><b data-output="signature">署名未入力</b></div>
+            <div class="report-seal" aria-hidden="true">鑑定</div>
+          </footer>
+          <p class="report-disclaimer">本鑑定書は自己理解と行動整理のための参考資料です。医療・法律・金銭上の判断や、未来の保証を行うものではありません。</p>
+        </article>
+      </section>
+    </div>
+  </div>
+</section>
+
+<nav class="step-pager no-print" aria-label="巻末ページ移動"><a class="btn ghost" href="appendix.html">← 早見表へ</a><a class="btn" href="index.html">講座トップへ →</a></nav>
+</main>
+
+<footer class="site-footer no-print">
+  <div class="container"><p>月の宿で自分を知る やさしい27宿・宿曜占星術講座</p></div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/reports.js"></script>
+</body>
+</html>

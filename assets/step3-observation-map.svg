@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" role="img" aria-labelledby="title desc">
+  <title id="title">身近な人を宿曜で観察する流れ</title>
+  <desc id="desc">身近な人の生年月日から本命宿を求め、性格才能、相性、日運を観察し、やさしく伝える流れ</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f2ff"/><stop offset="1" stop-color="#f4fbff"/></linearGradient>
+    <marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6d4aff"/></marker>
+  </defs>
+  <rect width="600" height="650" rx="28" fill="url(#bg3)"/>
+  <text x="300" y="45" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#4b2f9f">身近な人から学ぶと、宿が人物像になる</text>
+  <text x="300" y="75" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#625b73">知っている行動と宿の説明を照らし合わせます</text>
+
+  <rect x="122" y="106" width="356" height="76" rx="20" fill="#fff" stroke="#d8cff7" stroke-width="2"/>
+  <circle cx="170" cy="144" r="26" fill="#eee8ff"/>
+  <text x="170" y="153" text-anchor="middle" font-family="sans-serif" font-size="25">👤</text>
+  <text x="300" y="136" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#4b2f9f">よく知っている身近な1人</text>
+  <text x="300" y="164" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">お母さん・家族・親しい友人など</text>
+  <path d="M300 183V225" stroke="#6d4aff" stroke-width="3" marker-end="url(#a3)"/>
+
+  <rect x="122" y="231" width="356" height="76" rx="20" fill="#fffaf0" stroke="#d6b354" stroke-width="2"/>
+  <text x="300" y="260" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#625b73">生年月日 → 旧暦月日 → 月宿傍通暦</text>
+  <text x="300" y="291" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#805b00">本命宿＝読み始める住所</text>
+  <path d="M300 308V350" stroke="#6d4aff" stroke-width="3" marker-end="url(#a3)"/>
+
+  <rect x="32" y="358" width="164" height="123" rx="18" fill="#fff" stroke="#9b8ae8"/>
+  <text x="114" y="393" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#4b2f9f">性格・才能</text>
+  <text x="114" y="426" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">感じ方・得意な役割</text>
+  <text x="114" y="451" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">力の活かし方</text>
+
+  <rect x="218" y="358" width="164" height="123" rx="18" fill="#fff" stroke="#e7a5bd"/>
+  <text x="300" y="393" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#a52f5c">相性</text>
+  <text x="300" y="426" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">2人の宿の位置関係</text>
+  <text x="300" y="451" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">心地よい距離感</text>
+
+  <rect x="404" y="358" width="164" height="123" rx="18" fill="#fff" stroke="#83bfd6"/>
+  <text x="486" y="393" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#24647d">日運</text>
+  <text x="486" y="426" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">本命宿と日の宿</text>
+  <text x="486" y="451" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">今日の行動テーマ</text>
+
+  <path d="M300 485V524" stroke="#6d4aff" stroke-width="3" marker-end="url(#a3)"/>
+  <rect x="54" y="532" width="492" height="86" rx="22" fill="#4b2f9f"/>
+  <text x="300" y="566" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">実際の行動と比べて、観察ヒントにする</text>
+  <text x="300" y="597" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#eee8ff">「こういう傾向が出ることもあります」</text>
+  <text x="300" y="636" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#4b2f9f">占いの言葉より、目の前の本人を大切に</text>
+</svg>

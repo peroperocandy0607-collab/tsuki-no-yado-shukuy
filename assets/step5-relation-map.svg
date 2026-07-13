@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" role="img" aria-labelledby="title desc">
+  <title id="title">相性六分類の関係の地図</title>
+  <desc id="desc">命、業胎、栄親、友衰、安壊、危成の6種類を吉凶ではなく関係の特徴として示す地図</desc>
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f3ff"/><stop offset="1" stop-color="#f4fbff"/></linearGradient>
+    <filter id="s5"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#35256f" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="600" height="720" rx="28" fill="url(#bg5)"/>
+  <text x="300" y="45" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#4b2f9f">6つの相性は「関係の地図」</text>
+  <text x="300" y="76" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#625b73">良い・悪いの順位ではなく、関わり方の違いです</text>
+
+  <circle cx="300" cy="190" r="82" fill="#6d4aff" filter="url(#s5)"/>
+  <text x="300" y="169" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#eee8ff">2人の本命宿</text>
+  <text x="300" y="201" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#fff">27宿での位置関係</text>
+  <text x="300" y="229" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#eee8ff">↓ 6タイプへ</text>
+
+  <path d="M300 274V309M300 292H150V320M300 292H450V320" fill="none" stroke="#9b8ae8" stroke-width="3"/>
+
+  <g font-family="sans-serif">
+    <rect x="35" y="320" width="250" height="94" rx="18" fill="#fff" stroke="#9b8ae8"/>
+    <text x="55" y="350" font-size="21" font-weight="700" fill="#4b2f9f">命（めい）</text>
+    <text x="55" y="378" font-size="16" fill="#625b73">鏡のような関係</text>
+    <text x="55" y="400" font-size="14" fill="#625b73">似ていて分かり合いやすい</text>
+
+    <rect x="315" y="320" width="250" height="94" rx="18" fill="#fff" stroke="#83bfd6"/>
+    <text x="335" y="350" font-size="21" font-weight="700" fill="#24647d">業胎（ごうたい）</text>
+    <text x="335" y="378" font-size="16" fill="#625b73">学びの多い関係</text>
+    <text x="335" y="400" font-size="14" fill="#625b73">縁と気づきが生まれやすい</text>
+
+    <rect x="35" y="435" width="250" height="94" rx="18" fill="#fff" stroke="#69b681"/>
+    <text x="55" y="465" font-size="21" font-weight="700" fill="#287541">栄親（えいしん）</text>
+    <text x="55" y="493" font-size="16" fill="#625b73">発展的な関係</text>
+    <text x="55" y="515" font-size="14" fill="#625b73">支え合いながら育つ</text>
+
+    <rect x="315" y="435" width="250" height="94" rx="18" fill="#fff" stroke="#d6b354"/>
+    <text x="335" y="465" font-size="21" font-weight="700" fill="#805b00">友衰（ゆうすい）</text>
+    <text x="335" y="493" font-size="16" fill="#625b73">気楽な関係</text>
+    <text x="335" y="515" font-size="14" fill="#625b73">肩の力を抜いて付き合える</text>
+
+    <rect x="35" y="550" width="250" height="94" rx="18" fill="#fff" stroke="#e7a5bd"/>
+    <text x="55" y="580" font-size="21" font-weight="700" fill="#a52f5c">安壊（あんかい）</text>
+    <text x="55" y="608" font-size="16" fill="#625b73">揺さぶられやすい関係</text>
+    <text x="55" y="630" font-size="14" fill="#625b73">距離感と境界線を整える</text>
+
+    <rect x="315" y="550" width="250" height="94" rx="18" fill="#fff" stroke="#c8a0e3"/>
+    <text x="335" y="580" font-size="21" font-weight="700" fill="#71438c">危成（きせい）</text>
+    <text x="335" y="608" font-size="16" fill="#625b73">刺激のある関係</text>
+    <text x="335" y="630" font-size="14" fill="#625b73">違いを活かすと成長できる</text>
+  </g>
+
+  <rect x="70" y="667" width="460" height="38" rx="19" fill="#4b2f9f"/>
+  <text x="300" y="693" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">分類名より「どう関わるか」まで伝える</text>
+</svg>

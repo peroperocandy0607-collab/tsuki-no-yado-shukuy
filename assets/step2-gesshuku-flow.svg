@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" role="img" aria-labelledby="title desc">
+  <title id="title">月宿傍通暦の数え方</title>
+  <desc id="desc">旧暦の各月1日の起点宿から1日1宿ずつ進み、月が変わると新しい月の起点宿へ戻る流れ</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f3ff"/><stop offset="1" stop-color="#fffaf0"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#35256f" flood-opacity=".12"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6d4aff"/></marker>
+  </defs>
+  <rect width="600" height="620" rx="28" fill="url(#bg)"/>
+  <text x="300" y="47" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#4b2f9f">月宿傍通暦は「月ごとのすごろく」</text>
+  <text x="300" y="78" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#625b73">1日の宿に駒を置き、日付ごとに1宿ずつ進みます</text>
+
+  <rect x="38" y="112" width="524" height="170" rx="20" fill="#fff" stroke="#d8cff7" filter="url(#shadow)"/>
+  <rect x="58" y="132" width="116" height="38" rx="19" fill="#6d4aff"/>
+  <text x="116" y="158" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#fff">旧暦1月</text>
+  <circle cx="116" cy="220" r="42" fill="#eee8ff" stroke="#6d4aff" stroke-width="2"/>
+  <text x="116" y="214" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">1月1日</text>
+  <text x="116" y="239" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#4b2f9f">室宿</text>
+  <path d="M165 220H224" stroke="#6d4aff" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="272" cy="220" r="42" fill="#fff7e6" stroke="#c9971d" stroke-width="2"/>
+  <text x="272" y="214" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">1月2日</text>
+  <text x="272" y="239" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#805b00">壁宿</text>
+  <path d="M321 220H380" stroke="#6d4aff" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="428" cy="220" r="42" fill="#eef8ff" stroke="#3b82a0" stroke-width="2"/>
+  <text x="428" y="214" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">1月3日</text>
+  <text x="428" y="239" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#24647d">奎宿</text>
+  <text x="522" y="226" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#6d4aff">…</text>
+
+  <path d="M300 294V352" stroke="#e64980" stroke-width="4" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <rect x="98" y="303" width="404" height="43" rx="21" fill="#fff0f5" stroke="#e7a5bd"/>
+  <text x="300" y="331" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#a52f5c">月が変わったら、続きを数えずリセット！</text>
+
+  <rect x="38" y="365" width="524" height="170" rx="20" fill="#fff" stroke="#d8cff7" filter="url(#shadow)"/>
+  <rect x="58" y="385" width="116" height="38" rx="19" fill="#6d4aff"/>
+  <text x="116" y="411" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#fff">旧暦8月</text>
+  <circle cx="116" cy="473" r="42" fill="#eee8ff" stroke="#6d4aff" stroke-width="2"/>
+  <text x="116" y="467" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">8月1日</text>
+  <text x="116" y="492" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#4b2f9f">角宿</text>
+  <path d="M165 473H224" stroke="#6d4aff" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="272" cy="473" r="42" fill="#fff7e6" stroke="#c9971d" stroke-width="2"/>
+  <text x="272" y="467" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">8月2日</text>
+  <text x="272" y="492" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#805b00">亢宿</text>
+  <path d="M321 473H380" stroke="#6d4aff" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="428" cy="473" r="42" fill="#eef8ff" stroke="#3b82a0" stroke-width="2"/>
+  <text x="428" y="467" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#625b73">8月3日</text>
+  <text x="428" y="492" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#24647d">氐宿</text>
+  <text x="522" y="479" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#6d4aff">…</text>
+
+  <rect x="70" y="558" width="460" height="39" rx="19" fill="#4b2f9f"/>
+  <text x="300" y="584" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">旧暦の月＝ステージ　1日の宿＝スタート地点</text>
+</svg>
